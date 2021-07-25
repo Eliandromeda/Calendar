@@ -1,0 +1,32 @@
+.Reminder {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2px;
+
+&__modify {
+  display: flex;
+  justify-content: center;
+
+    button {
+      background: white;
+      border-radius: 15px;
+      font-weight: 500;
+      margin: 5px;
+      border: none;
+    }
+  }
+}
+
+.Reminder label {
+  color: #fafafa;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 2px;
+}
+
+.Reminder time {
+  align-self: flex-end;
+  margin-right: 2px;
+  font-size: 19px;
+  color: white;
+}

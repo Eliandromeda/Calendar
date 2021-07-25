@@ -1,0 +1,31 @@
+.Form  {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  z-index: 2;
+  position: absolute;
+}
+
+.Form textarea {
+  border: 1px solid #40a9ff;
+}
+
+.Form button {
+  background: #1890ff;
+  border-radius: 19px;
+  border: 1px solid #1890ff;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 29px;
+  margin: 4px auto;
+  width: 91px;
+  z-index: 1;
+}
+
+.Form {
+  &__Color {
+    background: #2e638e26;
+    width: 100%;
+    text-align: center;
+  }
+}

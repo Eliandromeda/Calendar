@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__month {
+  align-self: center;
+}
+
+.header__week {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header__week__item {
+  width: 15%;
+  text-align: center;
+}
